@@ -1,0 +1,23 @@
+{
+    "name": "kingloui/cakephp-basekit-construct",
+    "description": "Construct plugin for CakePHP BaseKit",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "KingLoui\\BaseKitConstruct\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KingLoui\\BaseKitConstruct\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
